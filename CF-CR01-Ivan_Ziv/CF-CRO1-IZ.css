@@ -1,0 +1,213 @@
+* { /* First I changed all of the default settings */
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    
+}
+
+p {
+    
+    margin: 1em;
+    
+}
+
+/* I decided to use mainly float, so that if I change the size of the Browser,
+the elements would align themselves benefit each other. It kind of work, but not perfectly*/
+
+h1 {
+    
+    font-size: 350%; /*I also tried to use %; vh and em instead of px*/
+    margin-top: 2%;
+    margin-bottom: 2%;
+    text-align: center;
+    
+}
+
+h3 {
+    
+    font-size: 1.5em;
+    
+}
+
+/* Header - I decided to use the comments also as way to separate the parts of the Webpage for myself*/
+#topHead {
+    
+        width: 100%;
+        height: 25vh;
+        background-color: #CABBB7;
+      
+    
+}
+
+#ti01 {
+    
+    float: left;
+    margin-left: 20%;
+    margin-top: 4%;
+    font-size: 1.5em;
+    
+}
+
+
+
+#logo1 {
+    
+    width: 30vh;
+    height: auto;
+    float: right;
+    margin-right: 25%;
+    margin-top: 3%;
+    
+}
+
+/*Navigation*/
+
+#nav01 {
+    
+    width: 100%;
+    height: 5vh;
+    background-color: #C65252;
+    margin-right: 100px;
+    list-style: none;
+    
+}
+
+#nav01 ul {
+    margin-right: 24.5%;
+    list-style: none;
+}
+
+li {
+    display: block;
+    font-weight: bold;
+    font-size: 1.5em;
+    float: right;
+    margin: 1vh;
+    padding: 0;
+    
+}
+
+a:link {
+    
+    text-decoration: none;
+    color: white;
+              
+}
+
+a:visited {
+            
+    text-decoration: none;
+        
+}
+
+a:hover {
+    
+    text-decoration: none;
+
+}
+
+a:active {
+    
+    text-decoration: none;
+        
+}
+
+
+/*Main*/
+    
+#pic1 { /* I realised that you cut the first image. So I figured out how to do that inside the Webpage*/
+    
+   float: left;
+   width:170vh;
+   overflow:hidden; 
+   margin-top: 2%;
+   margin-left: 8%;   
+   
+}
+
+#sami {
+   
+   width:100%; 
+   margin:-20% 0;
+   
+}
+
+#samisub {
+    
+    float: left;
+    margin-left: 28%;
+    margin-bottom: 1em;
+}
+
+#cardsub {
+    
+    float: left;
+    width: 75vh; /* here I made the width the same size as the image so the text would center*/
+    height: auto;
+    margin-left: 8%;
+    margin-top: 1.5%;
+    text-align: center;    
+
+}
+
+#scootersub {
+    
+    float: right;
+    width: 75vh; /* here I made the width the same size as the image so the text would center*/
+    height: auto;
+    margin-top: 1.5%;
+    margin-right: 8%;
+    text-align: center;
+    
+}
+
+.pic2 {
+    
+ 
+    width: 75vh; /* here I made the width the same size as the image so the text would center*/
+    height: auto;
+    margin-bottom: 1em;
+    
+}
+
+/*Footer*/
+
+footer {
+    
+    float: left;
+    width: 100%;
+    height: 15vh;
+    background-color: #CABBB7;
+       
+}
+
+#bottomfoot {
+    
+    width: 50vh;
+    height: auto;
+    float: left;
+    margin-left: 38%;
+    margin-top: 1%;
+    text-align: center;
+}
+
+#logo2 {
+    
+    width: 20vh;
+    height: auto;
+    
+}
+
+/*Contact.html + About_me.html = Laziness in full display :)*/
+
+#contact {
+    
+    width: 70vh;
+    height: 50vh;
+    float: left;
+    margin-left: 8%;
+    text-align: justify;
+    font-size: 1.2em;
+    
+}
+    
