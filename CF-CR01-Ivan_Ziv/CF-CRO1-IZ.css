@@ -1,4 +1,4 @@
-* { /* First I changed all of the default settings */
+* { /* First I changed some of the default settings */
     margin: 0;
     padding: 0;
     font-family: sans-serif;
@@ -29,14 +29,13 @@ h3 {
     
 }
 
-/* Header - I decided to use the comments also as way to separate the parts of the Webpage for myself*/
+/* Header - I decided to use the comments also as a way to separate the parts of the Webpage for myself*/
 #topHead {
     
         width: 100%;
         height: 25vh;
         background-color: #CABBB7;
-      
-    
+
 }
 
 #ti01 {
@@ -96,7 +95,8 @@ a:link {
 
 a:visited {
             
-    text-decoration: none;
+    text-decoration: none; /*this worked on its own in firefox and kept it white*/
+    color: white; /* but for chrome I had to add this*/
         
 }
 
@@ -115,7 +115,7 @@ a:active {
 
 /*Main*/
     
-#pic1 { /* I realised that you cut the first image. So I figured out how to do that inside the Webpage*/
+#pic1 { /* I realised that you cut the first img. So I figured out how to do that inside the Webpage*/
     
    float: left;
    width:170vh;
@@ -142,7 +142,7 @@ a:active {
 #cardsub {
     
     float: left;
-    width: 75vh; /* here I made the width the same size as the image so the text would center*/
+    width: 75vh; /* here I made the width the same size as the img so the text would center*/
     height: auto;
     margin-left: 8%;
     margin-top: 1.5%;
@@ -153,7 +153,7 @@ a:active {
 #scootersub {
     
     float: right;
-    width: 75vh; /* here I made the width the same size as the image so the text would center*/
+    width: 75vh; /* here I made the width the same size as the img so the text would center*/
     height: auto;
     margin-top: 1.5%;
     margin-right: 8%;
@@ -164,7 +164,7 @@ a:active {
 .pic2 {
     
  
-    width: 75vh; /* here I made the width the same size as the image so the text would center*/
+    width: 75vh; /* here I made the width the same size as the img so the text would center*/
     height: auto;
     margin-bottom: 1em;
     
@@ -198,12 +198,12 @@ footer {
     
 }
 
-/*Contact.html + About_me.html = Laziness in full display :)*/
+/*Contact_IZ.html + About_me_IZ.html = Laziness in full display :)*/
 
 #contact {
     
     width: 70vh;
-    height: 50vh;
+    height: 53vh;
     float: left;
     margin-left: 8%;
     text-align: justify;
